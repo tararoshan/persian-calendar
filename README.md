@@ -1,7 +1,7 @@
 # Persian Calendar
 Time estimate: 50hr
 
-Time spent: 30m
+Time spent: 38m
 
 ## Getting Started
 From the PersianCalendar directory, first install the needed packages (`npm i`)
