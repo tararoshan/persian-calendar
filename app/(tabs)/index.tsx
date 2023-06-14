@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import moment from 'moment';
 
 import EditScreenInfo from '../../components/EditScreenInfo';
 import { Text, View } from '../../components/Themed';
@@ -6,7 +7,11 @@ import { Text, View } from '../../components/Themed';
 export default function TabOneScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tab One</Text>
+      {/* <Text style={styles.title}>Today</Text> */}
+      <Text>today is</Text>
+      <Text style={styles.day}>{moment().format('dddd')}</Text>
+      <Text style={styles.month}>MONTH</Text>
+      <Text style={styles.year}>YEAR</Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       <EditScreenInfo path="app/(tabs)/index.tsx" />
     </View>
@@ -19,9 +24,15 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  title: {
+  day: {
     fontSize: 20,
     fontWeight: 'bold',
+  },
+  month: {
+    fontSize: 15,
+  },
+  year: {
+    fontSize: 15,
   },
   separator: {
     marginVertical: 30,
