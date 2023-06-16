@@ -1,7 +1,7 @@
 # Persian Calendar
 Time estimate: 50hr
 
-Time spent *so far*: 1h 50m
+Time spent *so far*: 2h
 
 ## Getting started
 From the PersianCalendar directory, first install the needed packages (`npm i`)
@@ -21,4 +21,5 @@ Here are the resources I used to build this.
 - Expo CLI
 - [Language localization](https://betterprogramming.pub/creating-a-multi-language-app-in-react-native-9828b138c274)
 - [Moment.js for Gregorian <-> Hijri translation](https://momentjs.com/)
+- [About Persian Calendar](https://www.timeanddate.com/calendar/persian-calendar.html)
 - Color palette: #2e5f23, #4a6e54, #667b80, #8188ac, #9e93d9
